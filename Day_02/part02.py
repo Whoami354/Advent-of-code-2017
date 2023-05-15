@@ -1,4 +1,4 @@
-with open("input", "r") as file:
+with open("input2", "r") as file:
     # Führe hier deine gewünschten Operationen mit der geöffneten Datei durch
     # Zum Beispiel: Daten lesen, schreiben oder verarbeiten
     input = file.read().split("\n")
