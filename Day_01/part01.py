@@ -3,7 +3,7 @@ with open("input", "r") as file:
     # Zum Beispiel: Daten lesen, schreiben oder verarbeiten
     input = file.read()
 
-#input = ["1122", "1111", "1234", "91212129"]
+#input2 = ["1122", "1111", "1234", "91212129"]
 sum = 0
 
 if input[-1] == input[0]:
