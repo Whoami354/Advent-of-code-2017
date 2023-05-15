@@ -5,6 +5,7 @@ with open("input", "r") as file:
     print(input)
 
 
+
 sum = 0
 
 for line in input:
