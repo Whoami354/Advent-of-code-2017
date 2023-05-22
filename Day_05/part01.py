@@ -5,14 +5,14 @@ with open("input", "r") as file:
     print(input)
 
 steps = 0
-index = 0
+idx = 0
 
 input = [int(number) for number in input]
 
-while 0 <= index < len(input):
-    offset = input[index]
-    input[index] += 1
-    index += offset
+while 0 <= idx < len(input):
+    offset = input[idx]
+    input[idx] += 1
+    idx += offset
     steps += 1
 
 print(steps)
